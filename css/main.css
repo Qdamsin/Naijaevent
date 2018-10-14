@@ -1,0 +1,156 @@
+body{
+  font-family: Benton Sans,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif !important;
+  text-align: center;
+  justify-content: center;
+
+}
+
+
+.banner{
+  
+  width: 100%;
+  background-image: url("images/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: cover;
+  margin-top: 0;
+}
+.navbar-brand{
+font-size: 25px !important;
+color: tomato !important;
+
+}
+.btn-success{
+  background-color: tomato !important;
+}
+.form-control{
+  height: 25px !important;
+  width: 150px !important;
+}
+.navbar-right >li >a{
+  color: black !important; 
+  font-size: 16px !important;
+  letter-spacing: 1px;
+  padding-top: 2em !important;
+}
+
+.navbar-right >li >a:hover>a:active{
+  color: tomato!important;  
+}
+
+
+
+
+.carousel-control{
+  opacity: 0 !important;
+}
+.carousel-caption{
+justify-content: center;
+  text-align: center;
+  position: absolute !important;
+    top: 200px !important;
+}
+.carousel-caption h1{
+  font-size: 35px !important;
+}
+.carousel-caption p{
+  font-size: 20px !important;
+}
+/*process section*/
+.process{
+  margin-top: 2.5em;
+  justify-content: center;
+  text-align: center;
+ 
+}
+.title {
+  font-size: 30px;
+  margin-bottom: 1em;
+}
+.stages{
+  font-size: 100px;
+  color: tomato;
+  padding-top: 0.2em;
+}
+.analytics{
+margin-top: 3em;
+}
+.analyticstext{
+  margin-top: 5em;
+}
+ 
+/*crad styling */
+
+.card {
+  box-shadow: 0 0px 38px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  box-sizing: border-box;
+  margin-bottom: 5em;
+  
+}
+.card:hover {
+  transform: scale(1); 
+  max-width: 220px;
+}
+.price {
+  color: rgb(92, 55, 194);
+  font-size: 22px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color:tomato;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.5;
+}
+/* the end of my card styling*/
+
+/*carousel styling*/
+
+/*text only carousel*/
+.footer{
+  background-color: rgb(36, 34, 34);
+  color: grey;
+ 
+}
+.footer p a{
+  color: white;
+  text-decoration: none;
+  
+}
+.footer p a:hover{
+color: grey;
+  
+}
+
+.footera {
+  word-spacing: 2px;
+  color: white;
+  text-decoration: none;
+}
+/* sign up page syling*/
+#signupsection{
+
+  margin-top: 10em;
+  margin-bottom: 10em;
+  align-content: center;
+  justify-content: center;
+
+}
+.form{
+    padding-left: 5em;
+    margin-top: 3em;
+}
